@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="layout">
+    <div class="card">
+      <h1>Hi ❤️</h1>
+      <p>I made this little website just for you.</p>
+
+      <button onclick="showMessage()">Click to read my message</button>
+
+      <div class="hidden-message" id="message" style="display:none;">
+        <p>
+          I just want you to know that you mean more to me than words can explain.
+          Every time I think of you, my day feels lighter and warmer.
+          Thank you for being you. Happy Valentine’s Day, baby!
+        </p>
+        <div class="signature">— Reaver 💕</div>
+      </div>
+    </div>
+
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
